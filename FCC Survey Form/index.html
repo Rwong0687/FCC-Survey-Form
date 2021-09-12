@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Ryan Wong">
+    <title>Custom Car Purchase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<html>
+ 
+<header>
+<h1 id="title">
+        <u><strong>Custom Car Purchase Form:</strong></u>
+    </h1>
+</header>
+
+<body>
+<p id="description">
+        <strong>Complete the Information below to build your custom car</strong>
+    </p>
+
+<form id="survey-form">
+  
+  <div class="input-heading">
+    
+  <label for="name" id="name-label" class="info"> Name </label>
+  <input id="name" type="text" name="name" placeholder="John Snow" class="inputs" required> </input>
+<br>
+  <label for="email" id="email-label" class="info"> Email </label>
+  <input id="email" type="email" name="email" placeholder="email@email.com" class="inputs" required> </input>
+<br>
+  <label for="number" id="number-label" class="info"> Age </label>
+  <input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="inputs" required> </input>
+<br>
+<br>
+
+<label for="dropdown" id="vehicle" class="info"> Select Vehicle type </label>
+<select id="dropdown" class="inputs">
+  <option value="Sedan"> Sedan </option>
+  <option value="Coupe"> Coupe </option>
+  <option value="Truck"> Truck </option>
+  <option value="Hatch"> Hatch </option>
+</select>
+<br>
+
+<label for="dropdown" id="Wheel" class="info"> Select Wheel Size </label>
+<select id="dropdown" class="inputs">
+  <option value="15"> 15 </option>
+  <option value="16"> 16 </option>
+  <option value="17"> 17 </option>
+  <option value="18"> 18 </option>
+  <option value="19"> 19 </option>
+  <option value="20"> 20 </option>
+</select>
+<br>
+<label for="dropdown" id="interior-color" class="info"> Select Interior Color </label>
+<select id="dropdown" class="inputs">
+  <option value="black">Black</option>
+  <option value="white">White</option>
+  <option value="red">Red</option>
+  <option value="blue">Blue</option>
+</select>
+<br>
+<label for="dropdown" id="seat-material" class="info"> Select Seat Material </label>
+<select id="dropdown" class="inputs">
+  <option value="leather">Leather</option>
+  <option value="cushion">Cushion</option>
+</select>
+<br>
+<label for="dropdown" id="engine-type" class="info"> Select Engine Type </label>
+<select id="dropdown" class="inputs">
+  <option value="inline4"> 4-Cylinder </option>
+  <option value="inline6"> Inline 6 </option>
+  <option value="V-6"> V6 </option>
+  <option value="V-8"> V8</option>
+  <option value="boxer4"> Flat 4 </option>
+  <option value="boxer6"> Flat 6 </option> 
+</select>
+<br>
+<label for="dropdown" id="force-induct" class="info"> Select Force-Induction Type: </label>
+<select id="dropdown" class="inputs">
+  <option value="turbo">Turbo Charger</option>
+  <option value="supercharger">Super Charger</option>
+</select>
+<br>
+<br>
+<label for="vehicle-light" id="vehicle-light"> <b>Select Vehicle-light Type:<b> </label>
+ <br>
+ <input id="vehicle-light" type="radio" id="led" name="vehicle-light" value="led">
+  <label for="vehicle-light"> LED </label>
+<br>
+  <input id="vehicle-light" type="radio" id="non-led" name="vehicle-light" value="non-led">
+  <label for="vehicle-light"> Non-LED </label>
+<br>
+<label for="transmission_type" id="transmission_type"> <b>Select Transmission Type:<b> </label>
+<br>
+  <input id="transmission_type" type="radio" id="automatic" name="transmission_type" value="automatic">
+  <label for="transmission_type"> Automatic </label>
+<br>
+  <input id="transmission_type" type="radio" id="manual" name="transmission_type" value="manual">
+  <label for="transmission_type"> Manual </label>
+ <br>
+ <br>
+  
+  <label for="drivetrain"> <b>Select Drivetrain:</b> </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="drivetrain" value="FWD">
+  <label for="checkbox">FWD (Front Wheel Drive)</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="drivetrain" value="RWD">
+  <label for="checkbox">RWD (Rear Wheel Drive)</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="drivetrain" value="AWD">
+  <label for="checkbox">AWD (All-Wheel Drive)</label>
+  <br>
+  <br>
+  
+  <label for="vehicle-color"> <b>Select Vehicle Color:</b> </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="vehicle-color" value="black">
+  <label for="checkbox">Black</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="vehicle-color" value="white">
+  <label for="checkbox">White</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="vehicle-color" value="red">
+  <label for="checkbox">Red</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="vehicle-color" value="blue">
+  <label for="checkbox">Blue</label>
+ <br>
+ <br>
+  
+  <label id="textarea"> Additional Comments: </label>
+  <br>
+  <textarea id="textarea" name="instructions" rows="6" cols="60">
+  </textarea>
+  <br>
+  <input id="submit" type="submit" value="Submit Purchase" class="submit-button">
+  
+  </div>
+</form>
+
+</body>
+</html>

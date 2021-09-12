@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+  font-family: 'KoHo';
+  line-height: 1.5;
+  background-color: green;
+  width: 500px;
+  margin: auto;  
+}
+
+form {
+  background: #3AA7AB;
+  padding: 2.5rem 2.5rem;
+  border-radius: 3rem;
+  width: 500px;
+  margin: auto;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.85rem;
+  background: #689798;
+  color: white;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.input-heading {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.inputs {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  padding: 0.26rem 0.78rem;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.27rem;
+}
+
+#textarea {
+  display: block;
+  padding: 0.26rem 0.78rem;
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+.info {
+  font-weight: bold
+}
